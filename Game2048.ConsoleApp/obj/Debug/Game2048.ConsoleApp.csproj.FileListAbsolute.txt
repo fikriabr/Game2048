@@ -1,0 +1,7 @@
+C:\Users\fikri\source\repos\Game2048.ConsoleApp\Game2048.ConsoleApp\bin\Debug\Game2048.ConsoleApp.exe.config
+C:\Users\fikri\source\repos\Game2048.ConsoleApp\Game2048.ConsoleApp\bin\Debug\Game2048.ConsoleApp.exe
+C:\Users\fikri\source\repos\Game2048.ConsoleApp\Game2048.ConsoleApp\bin\Debug\Game2048.ConsoleApp.pdb
+C:\Users\fikri\source\repos\Game2048.ConsoleApp\Game2048.ConsoleApp\obj\Debug\Game2048.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\fikri\source\repos\Game2048.ConsoleApp\Game2048.ConsoleApp\obj\Debug\Game2048.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\fikri\source\repos\Game2048.ConsoleApp\Game2048.ConsoleApp\obj\Debug\Game2048.ConsoleApp.exe
+C:\Users\fikri\source\repos\Game2048.ConsoleApp\Game2048.ConsoleApp\obj\Debug\Game2048.ConsoleApp.pdb
