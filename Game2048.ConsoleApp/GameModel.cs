@@ -22,26 +22,23 @@ namespace Game2048.ConsoleApp
     public class GameModel
     {
         Random rnd = new Random();
-
         private int boardSize { get; set; }
         private int winScore { get; set; }
         private int playerScore { get; set; }
         private int[,] boardArray { get; set; }
-        //public bool continuePlayAfterWin { get; set; }
         public bool isPlay { get; set; }
-
         public string currentShift { get; set; }
         public bool hasPosibleMovingOnCurrentShift { get; set; }
-        public GameModel(int boardSize, int winScore = 2048 /*, bool continuePlayAfterWin = false*/)
+
+        public GameModel(int boardSize, int winScore = 2048)
         {
             this.boardSize = boardSize;
             this.winScore = winScore;
-            //this.continuePlayAfterWin = continuePlayAfterWin;
-
             if (boardSize < 2)
             {
                 throw new Exception("Invalid size");
             }
+
             isPlay = true;
             Play();
         }
@@ -367,20 +364,5 @@ namespace Game2048.ConsoleApp
             return false;
         }
 
-
-        public bool IsValidatedArray(int[] arr)
-        {
-            int arrSize = arr.Length;
-            if (arrSize != this.boardSize)
-            {
-                throw new Exception("Different array size, please check it again");
-            }
-
-            if (arr.Length > 0)
-            {
-                return true;
-            }
-            return false;
-        }
     }
 }
